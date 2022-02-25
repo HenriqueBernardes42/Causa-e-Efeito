@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh; 
+    background-image: url(https://img.freepik.com/free-vector/flat-comic-style-background-speed-blue_52683-55215.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+div{
+    width: 50%;
+}
+
+#names{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#names li{
+    padding: 1em;
+    list-style: none;
+    border: 1px solid black;
+    background-color: #111;
+    color: aliceblue;
+}
+
+
+img{
+    width: 70vh;
+    height: 60vh;
+}
+
+#pane{
+    width: 90vh;
+    background-color:steelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    color: white;
+}
+
+#name{
+    font-size: 50px;
+}
